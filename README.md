@@ -141,7 +141,7 @@ RegisterNumber:  212223040002
 */
 
 
-## Output:
+
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
