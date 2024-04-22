@@ -66,6 +66,7 @@ dataset
 ```
 ### Output:
 
+![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/55bd58ff-3dba-4ba6-8273-def9fd384111)
 
 
 ## Program:
