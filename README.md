@@ -17,6 +17,12 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 ## Program:
 ```
+Program to implement the the Logistic Regression Using Gradient Descent.
+Developed by: Abdur Rahman Basil A H
+RegisterNumber:  212223040002
+
+```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,14 +35,6 @@ dataset
 dataset = dataset.drop('sl_no',axis=1)
 dataset = dataset.drop('salary',axis=1)
 dataset
-```
-
-### Output:
-![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/ee088f29-4c49-4480-ac76-bc4503f5bdcb)
-
-
-## Program:
-```
 dataset["gender"] = dataset["gender"].astype('category')
 dataset["ssc_b"] = dataset["ssc_b"].astype('category')
 dataset["hsc_b"] = dataset["hsc_b"].astype('category')
@@ -46,12 +44,6 @@ dataset["specialisation"] = dataset["specialisation"].astype('category')
 dataset["status"] = dataset["status"].astype('category')
 dataset["hsc_s"] = dataset["hsc_s"].astype('category')
 dataset.dtypes
-```
-### Output:
-![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/dd92a9d8-d7da-4791-b82f-ffeda66362cc)
-
-## Program:
-```
 dataset["gender"] = dataset["gender"].cat.codes
 dataset["ssc_b"] = dataset["ssc_b"].cat.codes
 dataset["hsc_b"] = dataset["hsc_b"].cat.codes
@@ -62,15 +54,6 @@ dataset["status"] = dataset["status"].cat.codes
 dataset["hsc_s"] = dataset["hsc_s"].cat.codes
 
 dataset
-
-```
-### Output:
-
-![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/55bd58ff-3dba-4ba6-8273-def9fd384111)
-
-
-## Program:
-```
 
 X = dataset.iloc[:,:-1].values
 Y = dataset.iloc[:,-1].values
@@ -108,20 +91,6 @@ y_pred
 
 Accuracy = np.mean(y_pred.flatten()==y)
 print("Accuracy: ",Accuracy)
-```
-### Output:
-![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/4580c924-1e59-4a1b-aef9-af0fc9a99678)
-
-## Program:
-```
-print(y_pred)
-```
-### Output:
-![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/69152acc-bbef-4fdd-8bd6-bbe77f11785f)
-
-
-## Program:
-```
 xnew = np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
 y_prednew = predict(theta,xnew)
 print(y_prednew)
@@ -131,16 +100,13 @@ y_prednew = predict(theta,xnew)
 print(y_prednew)
 ```
 
+##  Output:
+![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/ee088f29-4c49-4480-ac76-bc4503f5bdcb)
 
-
-
-/*
-Program to implement the the Logistic Regression Using Gradient Descent.
-Developed by: Abdur Rahman Basil A H
-RegisterNumber:  212223040002
-*/
-
-
+![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/dd92a9d8-d7da-4791-b82f-ffeda66362cc)
+![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/55bd58ff-3dba-4ba6-8273-def9fd384111)
+![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/4580c924-1e59-4a1b-aef9-af0fc9a99678)
+![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/69152acc-bbef-4fdd-8bd6-bbe77f11785f)
 
 
 ## Result:
