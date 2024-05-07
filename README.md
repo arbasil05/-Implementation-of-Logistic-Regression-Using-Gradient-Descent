@@ -107,7 +107,7 @@ print(y_prednew)
 ![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/ee088f29-4c49-4480-ac76-bc4503f5bdcb)
 #### Type of attributes:
 ![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/dd92a9d8-d7da-4791-b82f-ffeda66362cc)
-## Accuracy
+#### Accuracy
 ![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/55bd58ff-3dba-4ba6-8273-def9fd384111)
 ![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/4580c924-1e59-4a1b-aef9-af0fc9a99678)
 ![image](https://github.com/arbasil05/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/144218037/69152acc-bbef-4fdd-8bd6-bbe77f11785f)
